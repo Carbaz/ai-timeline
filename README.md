@@ -95,8 +95,8 @@
 
 ### March 2023 | Anthropic Launches Claude 1.0
 
-* **Theoretical:** First direct commercial competitor to GPT-4 with a core focus on
-  security and alignment.
+* **Theoretical:** First direct commercial competitor to OpenAI's frontier models,
+  built with a core focus on Constitutional AI and alignment.
 * **Market Impact:** Early adoption in heavily regulated industries like legal and
   finance due to safety positioning.
 
@@ -123,8 +123,8 @@
 
 ### July 2023 | Meta Releases Llama 2
 
-* **Theoretical:** First open weights model family with a fully permissive commercial
-  license for business use.
+* **Theoretical:** First major open-weights model family to allow broad commercial
+  business use, moving away from strict research-only restrictions.
 * **Market Impact:** Becomes the enterprise foundation for local deployments.
   Companies start hosting models on their own private servers to protect
   proprietary data.
@@ -136,13 +136,6 @@
 * **Market Impact:** Enterprise software vendors begin shifting marketing from
   single-turn chat tools toward complex multi-agent workflows.
 
-### November 2023 | CrewAI Open Source Framework Launches
-
-* **Theoretical:** An engineering framework designed to choreograph role-playing
-  autonomous agents.
-* **Market Impact:** Rapidly gains market share among engineers due to its intuitive
-  structure, bridging the gap between raw code and practical agent automation.
-
 ### November 2023 | Microsoft Announces Copilot Studio at Ignite
 
 * **Theoretical:** Launch of a low-code platform designed to build custom copilots and
@@ -150,6 +143,14 @@
 * **Market Impact:** Enterprise software adoption accelerates rapidly as corporate
   clients gain a native, compliance-friendly environment to integrate LLMs into legacy
   workflows.
+
+### December 2023 | CrewAI Open Source Framework Launches
+
+* **Theoretical:** An engineering framework designed to choreograph
+  role-playing autonomous agents.
+* **Market Impact:** Rapidly gains market share among engineers due to its
+  intuitive structure, bridging the gap between raw code and practical
+  agent automation.
 
 ---
 
@@ -171,13 +172,12 @@
   complex RAG pipelines or simply feed entire codebases and document troves directly
   into the model context window.
 
-### March 2024 | Anthropic Launches the Claude 3 Family (Opus & Sonnet)
+### March 2024 | Anthropic Launches the Claude 3 Family
 
-* **Theoretical:** Foundational models that defeat GPT-4 across major engineering,
-  coding, and multi-step reasoning benchmarks.
-* **Market Impact:** A major migration wave occurs. Global developers and software
-  engineering platforms switch their backend pipelines from OpenAI to Anthropic for
-  coding tasks.
+* **Theoretical:** Release of Opus, Sonnet, and Haiku foundational models
+  that defeat GPT-4 across major engineering, coding, and reasoning benchmarks.
+* **Market Impact:** A major migration wave occurs. Global developers and
+  software platforms switch their backend pipelines from OpenAI to Anthropic.
 
 ### April 2024 | Meta Launches Llama 3
 
@@ -234,6 +234,14 @@
   at a virtual screen, move the cursor, click, and type.
 * **Market Impact:** The legacy Robotic Process Automation (RPA) software market
   begins aggressively consolidating or adapting as LLMs bypass standard API requirements.
+
+### November 2024 | Anthropic Open-Sources Model Context Protocol (MCP)
+
+* **Theoretical:** An open standard protocol designed to unify how AI models
+  and agents connect securely to external data sources and environments.
+* **Market Impact:** Rapidly adopted as the industry standard for tool
+  calling, eliminating fragmented integrations and supercharging agentic
+  capabilities across enterprise IDEs and local deployments.
 
 ### December 2024 | DeepSeek Launches DeepSeek-V3
 
