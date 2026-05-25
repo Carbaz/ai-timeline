@@ -220,20 +220,15 @@
   breaking changes in the early alpha make it too volatile for immediate enterprise
   production deployments.
 
-### February 2024 | Google Releases Gemini 1.5 Pro
-
-* **Theoretical:** Mixture-of-Experts (MoE) architecture with significantly expanded
-  context handling compared to earlier Gemini models.
-* **Market Impact:** Intensifies the enterprise debate over large-context model
-  design versus RAG pipelines, as architects weigh direct long-context use against
-  retrieval-based integration.
-
 ### March 2024 | Anthropic Launches the Claude 3 Family
 
-* **Theoretical:** Release of Opus, Sonnet, and Haiku foundational models
-  that defeat GPT-4 across major engineering, coding, and reasoning benchmarks.
-* **Market Impact:** A major migration wave occurs. Global developers and
-  software platforms switch their backend pipelines from OpenAI to Anthropic.
+* **Theoretical:** Vendor releases reported that the Claude 3 family achieved higher
+  scores on several engineering, coding, and reasoning benchmarks compared with
+  contemporaneous GPT‑4 evaluations; see vendor benchmark tables for exact datasets and
+  metrics.
+* **Market Impact:** Reported benchmark wins prompted migration interest and vendor
+  switching discussions; comparative claims should cite the specific benchmark tables
+  and evaluation methodology before asserting that Claude 3 “defeated GPT‑4.”
 
 ### April 2024 | Meta Launches Llama 3
 
@@ -241,6 +236,14 @@
   previous-generation proprietary commercial APIs.
 * **Market Impact:** Production costs collapse. Standard corporate tooling clusters
   around local server hosting using orchestration backends like Ollama and vLLM.
+
+### May 2024 | Google Releases Gemini 1.5 Pro
+
+* **Theoretical:** Mixture-of-Experts (MoE) architecture with significantly expanded
+  context handling compared to earlier Gemini models.
+* **Market Impact:** Intensifies the enterprise debate over large-context model
+  design versus RAG pipelines, as architects weigh direct long-context use against
+  retrieval-based integration.
 
 ### May 2024 | OpenAI Launches GPT-4o ("Omni")
 
@@ -320,6 +323,16 @@
   all major providers due to immediate competitive pressure. Accelerates the enterprise
   pivot toward low-cost local open-source reasoning models.
 
+### May 2025 | Reasoning Models
+
+* **Theoretical:** Frontier model releases in 2025 introduced explicit support for
+  extended multi‑step reasoning, stepwise verification, and integrated tool use within
+  large‑context architectures; vendor system cards (e.g., Anthropic’s Claude 4 family)
+  document extended‑thinking modes and tool‑integration features.
+* **Market Impact:** Led to new benchmark designs and evaluation protocols targeting
+  multi‑step reasoning and verification, and increased emphasis in vendor disclosures
+  on reasoning strengths and limitations.
+
 ### October 2025 | LangGraph Major Production Release
 
 * **Theoretical:** Full architectural maturity of the framework featuring standardized
@@ -327,3 +340,11 @@
   controls.
 * **Market Impact:** Established itself as a major enterprise backbone for complex,
   stateful, and long-running autonomous agent pipelines.
+
+### February 2026 | Multimodality
+
+* **Theoretical:** By early 2026 vendor materials and model cards described natively
+  multimodal systems combining text, visual inputs, and audio/operational observations
+  to support cross‑modal understanding and action.
+* **Market Impact:** Accelerated work on unified input pipelines, long‑context multimodal
+  training methods, and standardized cross‑modal evaluation suites.
