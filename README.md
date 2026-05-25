@@ -8,41 +8,66 @@
 * **Market Impact:** Purely academic and research-focused; zero commercial adoption or
   enterprise market presence.
 
-### June 2018 | OpenAI Releases GPT-1
+### June 2018 | OpenAI Publishes GPT-1 Research (paper)
 
-* **Theoretical:** First proof-of-concept proving that generative pre-training allows
-  language models to generalize tasks.
-* **Market Impact:** No commercial deployment; tech industry remains focused on
-  traditional discriminative NLP.
+* **Theoretical:** First proof-of-concept (research paper) showing that generative
+  pre-training allows language models to generalize tasks.
+* **Market Impact:** Research milestone rather than a commercial product release;
+  no broad commercial deployment at the time.
 
-### October 2018 | Google Introduces BERT
+### October 2018 | Google Publishes BERT (paper)
 
-* **Theoretical:** A bidirectional transformer model optimized for masking and
-  contextual embeddings.
-* **Market Impact:** Google integrates it into its core search engine by late 2019,
-  fundamentally altering global SEO and search monetization.
+* **Theoretical:** A bidirectional transformer model optimized for masked LM
+  pre-training and contextual embeddings.
+* **Market Impact:** Google began integrating BERT into English Search in October
+  2019 (initially for specific query types), which had downstream effects on
+  search relevance and SEO practices.
 
-### February 2019 | OpenAI Unveils GPT-2
+### February 2019 | OpenAI Unveils GPT-2 (paper)
 
-* **Theoretical:** A 1.5-billion parameter model demonstrating coherent multi-paragraph
-  text generation.
-* **Market Impact:** OpenAI staged its release over safety concerns, sparking the first
-  major global debate on synthetic media and corporate AI ethics.
+* **Theoretical:** Introduced large-scale transformer-language modeling demonstrating
+  coherent multi-paragraph generation; the GPT-2 family culminated in a 1.5B-parameter
+  model (largest weights were publicly released later in Nov 2019 as part of a
+  staged release).
+* **Market Impact:** OpenAI staged the model release over safety concerns, sparking
+  a major public debate on synthetic media and responsible publication practices.
+
+### July 2019 | Hugging Face releases Transformers (library)
+
+* **Theoretical:** The library standardizes pre-trained Transformer models and tokenizers
+  for PyTorch/TF, making it easy to reuse BERT/GPT-family weights and pipelines.
+* **Market Impact:** Rapidly democratizes model usage; accelerates research-to-product
+  cycles and enables an ecosystem of tooling and deployment.
+
+### November 2019 | Hugging Face launches Model Hub (centralized model repository)
+
+* **Theoretical:** A centralized repository for model weights, demos, and community
+  contributions with model cards and metadata.
+* **Market Impact:** Becomes the de-facto discovery and distribution layer for open
+  models, boosting experimentation and reproducibility.
 
 ### May 2020 | OpenAI Launches GPT-3
 
-* **Theoretical:** Scale jumps to 175 billion parameters, unlocking emergent few-shot
-  learning capabilities.
-* **Market Impact:** Microsoft signs an exclusive licensing deal for the model.
-  A highly restricted private beta API opens, capturing early Silicon Valley startup
-  interest.
+* **Theoretical:** Scale jumps to ~175 billion parameters, demonstrating strong
+  few-shot learning capabilities.
+* **Market Impact:** A highly restricted private beta API opened for early adopters.
+  Microsoft later obtained an exclusive license to GPT-3 (announced Sept 2020),
+  which influenced early commercial integrations.
 
 ### May 2021 | Anthropic is Founded
 
-* **Theoretical:** Core OpenAI safety researchers split off over commercialization
-  disagreements to focus on Constitutional AI.
-* **Market Impact:** Stealth phase; venture capital begins flowing into alternative
-  safety-first foundational labs.
+* **Theoretical:** Founded by former OpenAI safety researchers to focus on
+  Constitutional AI and alignment-driven model development.
+* **Market Impact:** Stealth phase initially; venture capital and strategic
+  partnerships flowed to alternative safety-first foundational labs.
+
+### June 2021 | GitHub Launches Copilot Powered by OpenAI Codex
+
+* **Theoretical:** GitHub Copilot uses OpenAI Codex to translate natural language
+  prompts into code and assist developers inside IDEs.
+* **Market Impact:** Marks the first mainstream developer-facing AI coding
+  assistant; accelerates enterprise interest in AI-assisted software engineering
+  and establishes code generation as a major LLM application.
 
 ---
 
@@ -144,13 +169,13 @@
   clients gain a native, compliance-friendly environment to integrate LLMs into legacy
   workflows.
 
-### December 2023 | CrewAI Open Source Framework Launches
+### December 2023 | CrewAI Open Source Framework First Released
 
-* **Theoretical:** An engineering framework designed to choreograph
-  role-playing autonomous agents.
-* **Market Impact:** Rapidly gains market share among engineers due to its
-  intuitive structure, bridging the gap between raw code and practical
-  agent automation.
+* **Theoretical:** An open-source Python framework for building AI agents,
+  agent crews, workflows, and retrieval-augmented generation processes.
+* **Market Impact:** Introduces a new open-source agent orchestration framework
+  that gained developer attention and later supported enterprise products,
+  funding, and workflow automation tools.
 
 ---
 
@@ -166,11 +191,11 @@
 
 ### February 2024 | Google Releases Gemini 1.5 Pro
 
-* **Theoretical:** Mixture-of-Experts (MoE) architecture with a native context window
-  scaling up to 1-2 million tokens.
-* **Market Impact:** Forces a massive software architecture debate: whether to build
-  complex RAG pipelines or simply feed entire codebases and document troves directly
-  into the model context window.
+* **Theoretical:** Mixture-of-Experts (MoE) architecture with significantly expanded
+  context handling compared to earlier Gemini models.
+* **Market Impact:** Intensifies the enterprise debate over large-context model
+  design versus RAG pipelines, as architects weigh direct long-context use against
+  retrieval-based integration.
 
 ### March 2024 | Anthropic Launches the Claude 3 Family
 
@@ -239,9 +264,9 @@
 
 * **Theoretical:** An open standard protocol designed to unify how AI models
   and agents connect securely to external data sources and environments.
-* **Market Impact:** Rapidly adopted as the industry standard for tool
-  calling, eliminating fragmented integrations and supercharging agentic
-  capabilities across enterprise IDEs and local deployments.
+* **Market Impact:** Widely discussed as an emerging open protocol for tool
+  calling, helping reduce fragmented integrations and shaping early agentic
+  workflows across enterprise IDEs and local deployments.
 
 ### December 2024 | DeepSeek Launches DeepSeek-V3
 
@@ -270,14 +295,6 @@
   controls.
 * **Market Impact:** Establishes itself as the dominant industry-standard enterprise
   backbone for complex, stateful, and long-running autonomous agent pipelines.
-
-### Early 2026 | Maturity of "Vibe Coding" & Omnipresent Agentic Pipelines
-
-* **Theoretical:** Highly autonomous code generation environments capable of editing
-  complex, multi-file software repositories independently.
-* **Market Impact:** Software development shifts toward developers acting as product
-  orchestrators using AI IDEs (Cursor, Windsurf). Autonomous agent networks become
-  standard infrastructure for global business process automation.
 
 ### May 2026 | Microsoft Copilot Studio Brings "Computer Use" to General Availability
 
