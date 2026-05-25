@@ -46,13 +46,14 @@
 * **Market Impact:** Becomes the de-facto discovery and distribution layer for open
   models, boosting experimentation and reproducibility.
 
-### May 2020 | OpenAI Launches GPT-3
+### May 2020 | OpenAI Publishes GPT-3 Research Paper
 
 * **Theoretical:** Scale jumps to ~175 billion parameters, demonstrating strong
   few-shot learning capabilities.
-* **Market Impact:** A highly restricted private beta API opened for early adopters.
-  Microsoft later obtained an exclusive license to GPT-3 (announced Sept 2020),
-  which influenced early commercial integrations.
+* **Market Impact:** The GPT-3 research paper was published in May 2020; API
+  access began as an invite-only private beta in June 2020. Microsoft later
+  obtained an exclusive license to GPT-3 (announced Sept 2020), which influenced
+  early commercial integrations.
 
 ### May 2021 | Anthropic is Founded
 
@@ -61,9 +62,10 @@
 * **Market Impact:** Stealth phase initially; venture capital and strategic
   partnerships flowed to alternative safety-first foundational labs.
 
-### June 2021 | GitHub Launches Copilot Powered by OpenAI Codex
+### June 2021 | GitHub Copilot Enters Public Beta (powered by OpenAI Codex)
 
-* **Theoretical:** GitHub Copilot uses OpenAI Codex to translate natural language
+* **Theoretical:** GitHub announced Copilot in March 2021; it entered public
+  beta in June 2021. Copilot uses OpenAI Codex to translate natural language
   prompts into code and assist developers inside IDEs.
 * **Market Impact:** Marks the first mainstream developer-facing AI coding
   assistant; accelerates enterprise interest in AI-assisted software engineering
@@ -79,6 +81,13 @@
   (RLHF) to align models with user intent.
 * **Market Impact:** Drastically improved API usability for developers, establishing
   the blueprint for safe conversational products.
+
+### April 2022 | Google Publishes PaLM
+
+* **Theoretical:** Pathways Language Model (PaLM) demonstrated strong few-shot
+  capabilities with dense scaling techniques.
+* **Market Impact:** PaLM positioned Google as a major competitor in large-scale
+  language models and accelerated enterprise interest in large dense models.
 
 ### October 2022 | LangChain GitHub Repository Created (Harrison Chase)
 
@@ -102,13 +111,13 @@
 * **Market Impact:** Seed stage development; targets the immediate market need for
   enterprise data ingestion.
 
-### February 2023 | Meta Announces LLaMA (and subsequent BitTorrent Leak)
+### February 2023 | Meta Announces LLaMA (weights leaked shortly after in March 2023)
 
 * **Theoretical:** High-performance, compute-efficient foundational open-source models
   ranging from 7B to 65B parameters.
-* **Market Impact:** The leak sparks the **Global Open-Source Boom**. Thousands of
-  independent developers begin running and fine-tuning capable models on consumer
-  hardware overnight.
+* **Market Impact:** The weights leak in March 2023 helped spark the **Global
+  Open-Source Boom**. Thousands of independent developers began running and
+  fine-tuning capable models on consumer hardware overnight.
 
 ### March 2023 | OpenAI Launches GPT-4
 
@@ -118,6 +127,14 @@
   casual experimentation to signing heavy API contracts under strict enterprise
   data-privacy terms.
 
+### March 2023 | Microsoft Debuts Bing Chat (Copilot in Bing)
+
+* **Theoretical:** Integration of conversational LLM capabilities into search,
+  initially enabled via partnership between Microsoft and OpenAI.
+* **Market Impact:** Significantly increased consumer exposure to conversational
+  search assistants and accelerated product integrations across search and
+  productivity tools.
+
 ### March 2023 | Anthropic Launches Claude 1.0
 
 * **Theoretical:** First direct commercial competitor to OpenAI's frontier models,
@@ -125,12 +142,19 @@
 * **Market Impact:** Early adoption in heavily regulated industries like legal and
   finance due to safety positioning.
 
-### April 2023 | AutoGPT and BabyAGI Repositories Go Viral
+### March 2023 | AutoGPT and BabyAGI Repositories Go Viral
 
 * **Theoretical:** Early open-source autonomous agent architectures running continuous
   execution loops to complete complex goals.
 * **Market Impact:** Immense hype cycle but zero enterprise production value; models
   suffered from infinite logic loops and massive API token cost drain.
+
+### May 2023 | Google Publishes PaLM 2
+
+* **Theoretical:** PaLM 2 improved multilingual, reasoning, and code
+  capabilities over the original PaLM family.
+* **Market Impact:** Expanded Google's competitive model offerings and supported
+  more advanced developer tooling and products.
 
 ### June 2023 | OpenAI Introduces Native Function Calling
 
@@ -176,6 +200,13 @@
 * **Market Impact:** Introduces a new open-source agent orchestration framework
   that gained developer attention and later supported enterprise products,
   funding, and workflow automation tools.
+
+### December 2023 | Google Launches Gemini
+
+* **Theoretical:** Google's multimodal Gemini family was introduced, aiming to
+  provide broad capabilities across text, vision, and reasoning.
+* **Market Impact:** Positioned Google to compete more directly with OpenAI and
+  other frontier-model providers in enterprise and consumer products.
 
 ---
 
@@ -260,13 +291,14 @@
 * **Market Impact:** The legacy Robotic Process Automation (RPA) software market
   begins aggressively consolidating or adapting as LLMs bypass standard API requirements.
 
-### November 2024 | Anthropic Open-Sources Model Context Protocol (MCP)
+### November 2024 | Anthropic Announces Model Context Protocol (MCP)
 
 * **Theoretical:** An open standard protocol designed to unify how AI models
   and agents connect securely to external data sources and environments.
 * **Market Impact:** Widely discussed as an emerging open protocol for tool
   calling, helping reduce fragmented integrations and shaping early agentic
-  workflows across enterprise IDEs and local deployments.
+  workflows across enterprise IDEs and local deployments. (Specification
+  announced in Nov 2024; related SDKs and implementations followed later.)
 
 ### December 2024 | DeepSeek Launches DeepSeek-V3
 
@@ -288,19 +320,10 @@
   all major providers due to immediate competitive pressure. Accelerates the enterprise
   pivot toward low-cost local open-source reasoning models.
 
-### October 2025 | LangGraph Launches Major Production Release (v1.0)
+### October 2025 | LangGraph Major Production Release
 
 * **Theoretical:** Full architectural maturity of the framework featuring standardized
   checkpointers, advanced state management, and robust human-in-the-loop interruption
   controls.
-* **Market Impact:** Establishes itself as the dominant industry-standard enterprise
-  backbone for complex, stateful, and long-running autonomous agent pipelines.
-
-### May 2026 | Microsoft Copilot Studio Brings "Computer Use" to General Availability
-
-* **Theoretical:** Transition of visual desktop GUI automation (allowing agents to
-  natively look at a virtual screen, move cursors, and click) from experimental APIs
-  into hardened enterprise infrastructure.
-* **Market Impact:** Marks the definitive shift from experimental testing to real-world
-  deployment of autonomous operational agents across global corporations, disrupting
-  the traditional legacy RPA (Robotic Process Automation) software market.
+* **Market Impact:** Established itself as a major enterprise backbone for complex,
+  stateful, and long-running autonomous agent pipelines.
